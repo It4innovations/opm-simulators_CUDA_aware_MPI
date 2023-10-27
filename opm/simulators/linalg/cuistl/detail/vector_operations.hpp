@@ -54,5 +54,11 @@ void setZeroAtIndexSet(T* deviceData, size_t numberOfElements, const int* indice
  */
 template <class T>
 T innerProductAtIndices(const T* deviceA, const T* deviceB, T* buffer, size_t numberOfElements, const int* indices);
+
+template <class T>
+void prepareSendBuf(const T* deviceA, T* buffer, size_t numberOfElements, const int* indices);
+template <class T>
+void syncFromRecvBuf(T* deviceA, T* buffer, size_t numberOfElements, const int* indices);
+
 } // namespace Opm::cuistl::detail
 #endif
