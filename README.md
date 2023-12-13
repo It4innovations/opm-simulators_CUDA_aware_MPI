@@ -1,3 +1,11 @@
+**Attention:**
+
+This is only a fork of [`opm-simulators`](https://github.com/OPM/opm-simulators) to prototype CUDA aware MPI, carried out by IT4Innovations. See the commit at branch `release/2023.10`, to which the prototype implementation was added to.
+
+All rights belong to the respective owners!
+
+-----------------------------
+
 # Open Porous Media Simulators and Automatic Differentiation Library
 
 CONTENT
